@@ -5,6 +5,7 @@
 
 body {
     text-align: center;
+    
 }
 
 
@@ -18,4 +19,10 @@ body {
 .titulo strong {
     color: rgb(250, 18, 18);
 }
+ul{
+    text-align: center;
+    padding: 30px;
+    margin: 50px;
+}
+
 
