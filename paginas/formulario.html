@@ -26,25 +26,41 @@
 
       <label for="txtapellido"><strong>Apellido(textbox):</strong></label>
       <input type="text" name="txtapellido" id="txtapellido" placeholder="esciba su apellido aqui">
-      <input type="submit" value="enviar" >
+ 
     <br>
 
       <label for="chkcasado"><strong>casado(textbox):</strong></label>
       <input type="checkbox" name="chkcasado" id="chkcasado">
-      <input type="submit" value="enviar" >
+     
     <br>
       <label for="datfechadenacimiento"><strong>fecha de Nacimiento(date):</strong></label>    
       <input type="date" name="datfechadenacimiento" id="datfechadenacimiento">   
-      <input type="submit" value="enviar">   
+        
     <br>
-      <label for="timhorarioticket">horario ticket(time)</label>
-      <input type="time" name="timhorarioticket" id="timhorarioticket">  
-      <input type="submit" value="enviar"> 
+      <label for="timhorarioticket">horario ticket(datetime-local)</label>
+      <input type="datetime-local" name="timhorarioticket" id="timhorarioticket">  
+    
     <br>
-    <label for=""></label> 
+
+    <label for="txtpassword">password(textbox):</label> 
+    <input type="password" name="txtpassword" id="txtpassword">
+   
+    <br>
+    <label for="txtemail">email(textbox):</label> 
+    <input type="email" name="txtemail" id="txtemail" required>
+    
+    <br> 
+    <label for="cbolocalidad">localidad(select)</label>
+    <select name="cbolocalidad" id="cbolocalidad">
+        <option value="1">san justo</option>
+        <option value="2">crespo</option>
+        <option value="3">santa fe</option>
+
+    </select>
+    <br>
+    <input type="submit" value="enviar">
+
 </form> 
 
-
-   
 </body>
 </html>
