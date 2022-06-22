@@ -8,5 +8,5 @@ body{
     color: black;
     margin: 50px;
     border: 50px;
-    opacity: initial;
+    display: flex;
 }

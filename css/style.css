@@ -5,6 +5,11 @@
 
 body {
     text-align: center;
+    background-color: gray;
+   
+    color: black;
+    margin: 50px;
+    border: 50px;
     
 }
 
