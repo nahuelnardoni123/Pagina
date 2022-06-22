@@ -1,3 +1,12 @@
 .tabla {
     border: "2";
 }
+body{
+    background-color: gray;
+    text-align: center;
+    text-decoration-line: overline;
+    color: black;
+    margin: 50px;
+    border: 50px;
+    opacity: initial;
+}
